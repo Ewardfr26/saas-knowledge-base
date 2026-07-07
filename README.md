@@ -4,9 +4,10 @@ Bienvenido a mi portafolio de Soporte Técnico enfocado en plataformas de softwa
 
 ## 📁 Estructura del Repositorio
 
-*   **`01-account-and-access/`**: Documentación para resolución de problemas de autenticación, gestión de accesos y credenciales.
+*   *   **`01-account-and-access/`**: Documentación para resolución de problemas de autenticación, gestión de accesos y credenciales.
+    *   [Ver: Falla en inicio de sesión con Google (OAuth)](./01-account-and-access/error-inicio-sesion.md) 
 *   **`02-data-and-performance/`**: Guías de diagnóstico para errores de carga de datos, lentitud del sistema e interacción con bases de datos.
-    *   [Ver: Error al cargar archivos pesados (Módulo de Almacenamiento)](./02-data-and-performance/error-carga-archivos.md) 👈 *Primer caso documentado*
+    *   [Ver: Error al cargar archivos pesados (Módulo de Almacenamiento)](./02-data-and-performance/error-carga-archivos.md) 
 *   **`03-integrations-and-apis/`**: Protocolos de soporte para fallas en webhooks, consumo de APIs y herramientas de terceros.
 
 ## 🛠️ Habilidades Evidenciadas en este Proyecto
