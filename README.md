@@ -12,6 +12,8 @@ Bienvenido a mi portafolio de Soporte Técnico enfocado en plataformas de softwa
     *   [Ver: Falla de sincronización en Webhook de Pagos](./03-integrations-and-apis/falla-webhook-integracion.md)
 *   **`04-logs-and-sql-simulations/`**: Casos avanzados de análisis de registros del sistema y consultas a bases de datos relacionales.
     *   [Ver: Análisis de Logs y Simulación SQL (Error 502)](./04-logs-and-sql-simulations/caso-error-sincronizacion.md)
+*   **`05-helpdesk-automation/`**: Diseño de flujos de trabajo de tickets, métricas de acuerdos de servicio (SLAs) y automatizaciones en plataformas Help Desk.
+    * [Ver: Configuración y Automatización de Jira Service Management](./05-helpdesk-automation/configuracion-jira-service.md) 
 ---
 ## 🛠️ Habilidades Evidenciadas en este Proyecto
 *   **Troubleshooting Lógico:** Metodología clara de diagnóstico (Síntoma -> Causa -> Solución).
