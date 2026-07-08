@@ -64,9 +64,9 @@ La cuenta del usuario está activa y pertenece al plan Enterprise (alta priorida
 > Hola [Nombre del Cliente],
 >
 >Te escribo para informarte que el acceso a tu historial de transacciones ha sido completamente restablecido y ya puedes exportar tus reportes contables con normalidad.
-> Nuestro equipo técnico identificó una interrupción temporal en la comunicación de nuestra red interna que conectaba el panel con el servidor de almacenamiento.
-> No se trató de un fallo en tu cuenta ni hubo pérdida de datos; tu información (las 14,205 transacciones registradas) se encuentra intacta y segura.
-> Lamentamos profundamente los inconvenientes que este retraso haya causado en tu jornada de hoy.
+> 
+> Nuestro equipo técnico identificó una interrupción temporal en la comunicación de nuestra red interna que conectaba el panel con el servidor de almacenamiento. No se trató de un fallo en tu cuenta ni hubo pérdida de datos; tu información (las 14,205 transacciones registradas) se encuentra intacta y segura. Lamentamos profundamente los inconvenientes que este retraso haya causado en tu jornada de hoy.
+> 
 > Quedo a tu disposición si necesitas asistencia con cualquier otro módulo de la plataforma.
 > 
 > Saludos cordiales,
