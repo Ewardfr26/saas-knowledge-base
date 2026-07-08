@@ -55,3 +55,21 @@ La cuenta del usuario está activa y pertenece al plan Enterprise (alta priorida
 ## ✅ 4. Resolución y Escalamiento ##
 *   **Acción Interna:** Se escala el caso con prioridad ALTA al equipo de DevOps/SysAdmins adjuntando el error ENOTFOUND mariadb-cluster.internal.net, indicando que el clúster interno de MariaDB en AWS no está respondiendo.
 *   **Solución:** DevOps reinicia el servicio DNS interno de la VPC. El sistema vuelve a la normalidad.
+
+---
+## ✉️ 5. Respuesta Final Enviada al Cliente ##
+
+> **Asunto:** Solución a su inconveniente con el historial de transacciones - Ticket #[Número]
+>
+> Hola [Nombre del Cliente],
+>
+>Te escribo para informarte que el acceso a tu historial de transacciones ha sido completamente restablecido y ya puedes exportar tus reportes contables con normalidad.
+> Nuestro equipo técnico identificó una interrupción temporal en la comunicación de nuestra red interna que conectaba el panel con el servidor de almacenamiento.
+> No se trató de un fallo en tu cuenta ni hubo pérdida de datos; tu información (las 14,205 transacciones registradas) se encuentra intacta y segura.
+> Lamentamos profundamente los inconvenientes que este retraso haya causado en tu jornada de hoy.
+> Quedo a tu disposición si necesitas asistencia con cualquier otro módulo de la plataforma.
+> 
+> Saludos cordiales,
+> 
+> **Eward Fuentes**  
+> Especialista de Soporte Técnico - SaaS Team
