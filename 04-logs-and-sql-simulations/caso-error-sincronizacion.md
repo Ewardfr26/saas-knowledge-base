@@ -14,11 +14,4 @@ Al ingresar al servidor a través de la terminal y revisar el archivo de registr
 [2026-07-07T14:22:11.405Z] ERROR (Database-Connector): Connection timeout after 5000ms
     at Pool.getConnection (/app/node_modules/mariadb/lib/pool.js:42:15)
     at Error: ENOTFOUND mariadb-cluster.internal.net
-    Cause: getaddrinfo ENOTFOUND mariadb-cluster.internal.net´´´
-
-🧠Deducción Técnica del Log:
-El backend intentó buscar los datos del usuario con ID 8942.
-El error ENOTFOUND mariadb-cluster.internal.net indica que el servidor de la aplicación no pudo resolver la dirección (DNS) de la base de datos. No es un problema del código de la app, es un problema de red interna o de que el contenedor de MariaDB está caído.
----
-## 💾 3. Investigación en la Base de Datos (SQL)
-Para asegurar que la cuenta del usuario no tenga ninguna anomalía o bloqueo manual previo a la caída de la red, se ejecuta la siguiente consulta en el servidor de respaldo:
+    Cause: getaddrinfo ENOTFOUND mariadb-cluster.internal.net
