@@ -39,13 +39,13 @@ GROUP BY u.id, s.subscription_plan;
 📊 Resultado de la consulta (Mockup de Consola):
 user_id: 8942
 
-* email: corporativo_asociado@empresa.com
+*   **email:** corporativo_asociado@empresa.com
 
-* account_status: ACTIVE
+*   **account_status:** ACTIVE
 
-* subscription_plan: ENTERPRISE
+*   **subscription_plan:** ENTERPRISE
 
-* total_transactions: 14,205
+*   **total_transactions:** 14,205
 
 🧠 Deducción de los Datos:
 La cuenta del usuario está activa y pertenece al plan Enterprise (alta prioridad). Tiene más de 14,000 transacciones, lo que descarta que sea un usuario nuevo sin datos. El problema es 100% la caída de la conexión reflejada en el log.
