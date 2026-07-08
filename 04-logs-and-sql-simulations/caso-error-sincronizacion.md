@@ -16,7 +16,7 @@ Al ingresar al servidor a través de la terminal y revisar el archivo de registr
     at Error: ENOTFOUND mariadb-cluster.internal.net
     Cause: getaddrinfo ENOTFOUND mariadb-cluster.internal.net
 ```
-🧠 Deducción Técnica del Log:
+### 🧠 Deducción Técnica del Log: ###
 El backend intentó buscar los datos del usuario con ID 8942.
 El error ENOTFOUND mariadb-cluster.internal.net indica que el servidor de la aplicación no pudo resolver la dirección (DNS) de la base de datos. No es un problema del código de la app, es un problema de red interna o de que el clúster de MariaDB está caído.
 
@@ -36,8 +36,8 @@ LEFT JOIN transactions t ON u.id = t.user_id
 WHERE u.email = 'corporativo_asociado@empresa.com'
 GROUP BY u.id, s.subscription_plan;
 ```
-📊 Resultado de la consulta (Mockup de Consola):
-user_id: 8942
+### 📊 Resultado de la consulta (Mockup de Consola):###
+*   **user_id:** 8942
 
 *   **email:** corporativo_asociado@empresa.com
 
@@ -47,7 +47,7 @@ user_id: 8942
 
 *   **total_transactions:** 14,205
 
-🧠 Deducción de los Datos:
+### 🧠 Deducción de los Datos: ###
 La cuenta del usuario está activa y pertenece al plan Enterprise (alta prioridad). Tiene más de 14,000 transacciones, lo que descarta que sea un usuario nuevo sin datos. El problema es 100% la caída de la conexión reflejada en el log.
 
 ---
