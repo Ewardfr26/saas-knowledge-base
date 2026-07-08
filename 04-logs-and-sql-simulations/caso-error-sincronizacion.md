@@ -36,7 +36,8 @@ LEFT JOIN transactions t ON u.id = t.user_id
 WHERE u.email = 'corporativo_asociado@empresa.com'
 GROUP BY u.id, s.subscription_plan;
 ```
-### 📊 Resultado de la consulta (Mockup de Consola):###
+### 📊 Resultado de la consulta (Mockup de Consola): ###
+```
 *   **user_id:** 8942
 
 *   **email:** corporativo_asociado@empresa.com
@@ -46,7 +47,7 @@ GROUP BY u.id, s.subscription_plan;
 *   **subscription_plan:** ENTERPRISE
 
 *   **total_transactions:** 14,205
-
+````
 ### 🧠 Deducción de los Datos: ###
 La cuenta del usuario está activa y pertenece al plan Enterprise (alta prioridad). Tiene más de 14,000 transacciones, lo que descarta que sea un usuario nuevo sin datos. El problema es 100% la caída de la conexión reflejada en el log.
 
