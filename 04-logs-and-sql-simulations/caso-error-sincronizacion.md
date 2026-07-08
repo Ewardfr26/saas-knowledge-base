@@ -24,6 +24,7 @@ El error ENOTFOUND mariadb-cluster.internal.net indica que el servidor de la apl
 
 ## 💾 3. Investigación en la Base de Datos (SQL)
 Para asegurar que la cuenta del usuario no tenga ninguna anomalía o bloqueo manual previo a la caída de la red, se ejecuta la siguiente consulta en el servidor de respaldo:
+```SQL
 SELECT 
     u.id AS user_id, 
     u.email, 
@@ -35,3 +36,4 @@ LEFT JOIN subscriptions s ON u.id = s.user_id
 LEFT JOIN transactions t ON u.id = t.user_id
 WHERE u.email = 'corporativo_asociado@empresa.com'
 GROUP BY u.id, s.subscription_plan;
+```
